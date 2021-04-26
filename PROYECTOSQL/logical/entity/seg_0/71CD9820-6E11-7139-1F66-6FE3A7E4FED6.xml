@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71CD9820-6E11-7139-1F66-6FE3A7E4FED6" name="POSTULACION">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 00:41:04 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_POSTULACION" id="719CB28E-575E-5BB9-E492-3023ADA5C6E9">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 00:41:37 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_POSTULACION" id="7722809A-F518-CB25-C116-055CE86FC732">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 00:41:54 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVALUA_OBJETIVO" id="D968BF4A-6B74-B19A-C747-E637E3F691AC">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 00:42:35 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVALUA_RETRIBUCION" id="C3628AC2-511C-B885-5E7A-D89FA660A76E">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 00:49:57 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EVALUA_DOCE_INVE" id="0BE20061-DA29-1876-1C2B-0AC11724031E">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 00:51:47 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_POSTULANTE" id="ACE95C56-8295-4326-8A32-ABCC2CB25CEC">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 01:00:23 UTC</createdTime>
+<generatorID>72A5BB4E-4FCF-7A03-E528-BD6710EA3DBE</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<referedAttribute>BFCFE010-754D-AD92-6D2B-9DD4D8407556</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_INSTITUCION" id="36C1E7B7-A1CA-AF68-2E10-6943F810DD08">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 01:08:00 UTC</createdTime>
+<generatorID>2A0F6DB9-8453-C8C7-A55B-87CCF8554068</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<referedAttribute>8B92192F-F4B1-FD05-37C4-80A608784E97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57A55BE7-05FB-55E4-1009-49E9351C4792" name="POSTULACION PK">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 00:41:52 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>719CB28E-575E-5BB9-E492-3023ADA5C6E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

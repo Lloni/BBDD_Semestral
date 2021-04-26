@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ABBB01DF-0A0D-E1F7-E517-045437B89A7C" name="ANTECEDENTES_ACADEMICOS">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-24 23:18:21 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ANT_ACAD" id="55E5AABB-6BB0-C687-0CE2-22CA28779E08">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-24 23:19:05 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_ESTUDIO" id="F3540E1F-7497-1BA9-BB02-71D10FCD74CA">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-24 23:19:39 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM_CARRERA" id="38E6CA20-893F-5419-E28C-15EAF5435B1B">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-24 23:20:15 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_TITULO" id="C4EA1729-D43B-37CD-4EAF-3F27DE6085E0">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-24 23:20:44 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOTA_TITULO" id="095AEE5C-D4B7-3A65-C1FE-0C2BFBC36EE7">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-24 23:21:23 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_POSTULANTE" id="B4922DC3-F20E-7D6A-BE02-778303F7B850">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-24 23:30:52 UTC</createdTime>
+<generatorID>2EE1A866-5715-0A47-A0B6-98302C427F79</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<referedAttribute>BFCFE010-754D-AD92-6D2B-9DD4D8407556</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_INSTITUCION" id="23931D65-F2B5-6B8F-ADA2-291EC77193CD">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-24 23:43:37 UTC</createdTime>
+<generatorID>1BE9A096-7452-2949-EC67-949FE3A7A931</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<referedAttribute>8B92192F-F4B1-FD05-37C4-80A608784E97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A6078B9-4322-AB37-3A69-A477FAF0B090" name="ANTECEDENTES_ACADEMICOS PK">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-24 23:19:37 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55E5AABB-6BB0-C687-0CE2-22CA28779E08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

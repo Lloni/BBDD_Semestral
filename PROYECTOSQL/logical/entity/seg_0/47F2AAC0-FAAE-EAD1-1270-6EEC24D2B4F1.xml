@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47F2AAC0-FAAE-EAD1-1270-6EEC24D2B4F1" name="EXP_LABORAL">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 01:10:45 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_EXP_LABORAL" id="1A71A008-6501-3B4F-5B11-5B895EC6DF5E">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 01:10:56 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM_EMPRESA" id="DAEEE8CB-4C25-D2B7-1625-B518E7797771">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 01:11:17 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INICIO_EXP_LABORAL" id="11EE288F-E085-7FC2-FBF9-6484A735EC81">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 01:11:55 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIN_EXP_LABORAL" id="CD1B4A23-E572-12D0-C05E-B3BA68E7276A">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 01:12:24 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_POSTULANTE" id="A64AEA5F-EAC4-936B-36D5-28E3FB39473A">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 01:14:15 UTC</createdTime>
+<generatorID>668A871F-A7FC-CC67-840C-87283F806A0B</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<referedAttribute>BFCFE010-754D-AD92-6D2B-9DD4D8407556</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28E14911-CA28-079B-38CA-546717CA5480" name="EXP_LABORAL PK">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-04-25 01:11:16 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A71A008-6501-3B4F-5B11-5B895EC6DF5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
