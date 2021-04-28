@@ -291,7 +291,7 @@
 <colUsage columnID="A75A5151-20D5-11F7-5DAD-1D57893AF31A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="019EDD50-731F-64EA-FC73-5898C62AD8F9" name="POSTULANTE_PUEBLO_ORIGINARIO_FK">
+<ind_PK_UK id="019EDD50-731F-64EA-FC73-5898C62AD8F9" name="POST_PUEB_FK">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
 <generatorID>86A04531-4DAA-F967-EEC8-BA7B99E50414</generatorID>
