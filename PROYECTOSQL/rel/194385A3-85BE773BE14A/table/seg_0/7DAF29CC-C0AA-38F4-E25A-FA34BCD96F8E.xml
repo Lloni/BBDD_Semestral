@@ -101,6 +101,76 @@
 <colAssociation fkAssociation="98DE8AD9-1CFD-D6C5-EEA1-95A425A1B29E" referredColumn="C036F5FD-C9A3-1EBC-EB5A-A70D8C7CA3A4"/>
 </associations>
 </Column>
+<Column name="CERT_CED_IDENTIDAD" id="2DA2F26C-84C3-E96B-48D9-D8F84F553431">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:18:48 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_PERM_DEFINITIVA" id="188F25BB-0E23-F9E6-DCCE-1802736D3559">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_TITULO_MED" id="29BC32CC-7CB2-BA10-A47E-6818832B7300">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_NOTAS_PREGRADO" id="C321162C-4D89-6D0A-2C2F-3BF4E1A35C11">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_TITULO_ESP" id="EAB9D0EC-A462-EE78-787C-F8B9AF2049A4">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_LABORAL" id="6A80CEF5-FDA5-9CB9-AB6E-8953FAEC9227">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_IDIOMA" id="981A17A2-6BE4-1AA0-71BF-F7CE3FA74B1A">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 21:20:07 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E083899A-3A5D-E9E2-D834-CD68C1AEF1E0" name="POSTULACION_PK">
