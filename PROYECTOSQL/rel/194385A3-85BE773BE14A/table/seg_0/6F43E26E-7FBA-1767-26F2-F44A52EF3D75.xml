@@ -46,16 +46,5 @@
 <colUsage columnID="1C164649-D644-9D7A-8038-5E46B71D5A72"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0CF8AA23-5A71-7130-F67E-7DE5FDD17F88" name="PUEBLO_ORIGINARIO__UN">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:54:24 UTC</createdTime>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1C164649-D644-9D7A-8038-5E46B71D5A72"/>
-<colUsage columnID="00E593FF-8F3C-FF89-FF19-554FEECBB651"/>
-</indexColumnUsage>
-</ind_PK_UK>
 </indexes>
 </Table>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_POSTULANTE" id="BFCFE010-754D-AD92-6D2B-9DD4D8407556">
+<Attribute name="ID POSTULANTE" id="BFCFE010-754D-AD92-6D2B-9DD4D8407556">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:38:38 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AP_PATERNO" id="266DC7D7-BEA3-463B-D463-D564A2BCD0F4">
+<Attribute name="AP PATERNO" id="266DC7D7-BEA3-463B-D463-D564A2BCD0F4">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:38:53 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AP_MATERNO" id="25A05CC1-BC77-C47C-94BC-2C3C5E5AB3A6">
+<Attribute name="AP MATERNO" id="25A05CC1-BC77-C47C-94BC-2C3C5E5AB3A6">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:39:18 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -54,7 +54,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PRI_NOMBRE" id="A727C01B-43D0-B090-0ACD-04530B208ECB">
+<Attribute name="PRI NOMBRE" id="A727C01B-43D0-B090-0ACD-04530B208ECB">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:39:31 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -67,7 +67,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SEG_NOMBRE" id="55B5FA0D-BEE9-4D55-099C-D99A1041E1C8">
+<Attribute name="SEG NOMBRE" id="55B5FA0D-BEE9-4D55-099C-D99A1041E1C8">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:39:47 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -81,33 +81,41 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NUM_RUN" id="94CBC6B4-9C8B-1FF1-003E-EF8C57671F6B">
+<Attribute name="NUM RUN" id="94CBC6B4-9C8B-1FF1-003E-EF8C57671F6B">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:40:18 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <engineerTo>
 <item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
 </engineerTo>
+<constraintName>NUM_RUN_CHK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="NUM_RUN BETWEEN &apos;0000001&apos; and &apos;99999999&apos;"/>
+</checkConstraint>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DV_RUN" id="BD830EA0-5B43-DE11-582A-028FB9142696">
+<Attribute name="DV RUN" id="BD830EA0-5B43-DE11-582A-028FB9142696">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:40:35 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <engineerTo>
 <item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
 </engineerTo>
+<constraintName>DV_RUN_CHK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="DV_RUN IN (&apos;1&apos;, &apos;2&apos;, &apos;3&apos;, &apos;4&apos;, &apos;5&apos;, &apos;6&apos;, &apos;7&apos;, &apos;8&apos;, &apos;9&apos;, &apos;0&apos;, &apos;k&apos;, &apos;K&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FECHA_NACI" id="1DE75249-8B31-940D-3E65-99065A4B05C0">
+<Attribute name="FECHA NACI" id="1DE75249-8B31-940D-3E65-99065A4B05C0">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:40:49 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -154,11 +162,15 @@
 <engineerTo>
 <item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
 </engineerTo>
+<constraintName>SEXO_CHK</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="SEXO IN F, M"/>
+</checkConstraint>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DIRECCION" id="0460844B-25D8-18B4-535B-CC152A077856">
@@ -174,7 +186,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NUM_HIJOS" id="D01C9FB6-8585-FCCB-9BD0-A9B7EB02E2BB">
+<Attribute name="NUM HIJOS" id="D01C9FB6-8585-FCCB-9BD0-A9B7EB02E2BB">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:43:49 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -188,7 +200,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DISCAP_FISICA" id="39574622-6978-AD18-EB95-C331D3061AF0">
+<Attribute name="DISCAP FISICA" id="39574622-6978-AD18-EB95-C331D3061AF0">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:01:02 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -201,7 +213,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ESTADO_CIVIL" id="CA7E227E-DF27-7A62-495C-26C2F80CB406">
+<Attribute name="ESTADO CIVIL" id="CA7E227E-DF27-7A62-495C-26C2F80CB406">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:53:14 UTC</createdTime>
 <generatorID>70BF0524-3060-D038-BADD-506E6097B08F</generatorID>
@@ -216,7 +228,7 @@
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PUEBLO_ORIGINARIO" id="05EABC1E-A137-5814-7BB9-D8A279BE129E">
+<Attribute name="ID PUE ORI" id="05EABC1E-A137-5814-7BB9-D8A279BE129E">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:53:36 UTC</createdTime>
 <generatorID>86A04531-4DAA-F967-EEC8-BA7B99E50414</generatorID>
@@ -232,7 +244,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NACIONALIDAD" id="A645B939-218A-D792-74B2-F5B6B665BCBA">
+<Attribute name="ID PAIS" id="A645B939-218A-D792-74B2-F5B6B665BCBA">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-26 23:51:04 UTC</createdTime>
 <generatorID>CFD0177B-7096-ABFA-2022-B7E37895938D</generatorID>
@@ -247,7 +259,7 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_CIUDAD" id="53C39C2D-B26A-1656-14CD-2993DA4F6D48">
+<Attribute name="ID CIUDAD" id="53C39C2D-B26A-1656-14CD-2993DA4F6D48">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-27 23:46:52 UTC</createdTime>
 <generatorID>3460D7A7-FDA8-A555-0081-10DD1066EA59</generatorID>
@@ -286,6 +298,20 @@
 <newElementsIDs>94CBC6B4-9C8B-1FF1-003E-EF8C57671F6B</newElementsIDs>
 <usedAttributes>
 <attributeRef>94CBC6B4-9C8B-1FF1-003E-EF8C57671F6B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="56BCB6C8-887A-CCC7-D3AD-F55CC0CB5A96" name="POSTULANTE  UN">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 20:45:18 UTC</createdTime>
+<generatorID>957E570B-401C-EE23-C05C-FE26171ACF1B</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>94CBC6B4-9C8B-1FF1-003E-EF8C57671F6B</attributeRef>
+<attributeRef>3003D268-636F-45F7-0CD5-558F88D32E99</attributeRef>
+<attributeRef>4C6C5046-4A82-DD64-C4C1-5E88232AFE52</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E168630-B65D-9AF5-2749-89BED088A386" name="PTJE_EDAD">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E168630-B65D-9AF5-2749-89BED088A386" name="PTJE EDAD">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:19:52 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="EDAD_MIN" id="FDF45046-54C9-4535-9D0A-6F8001D95848">
+<Attribute name="EDAD MIN" id="FDF45046-54C9-4535-9D0A-6F8001D95848">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:20:13 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EDAD_MAX" id="36D74F46-CE92-E1EC-8C75-0E6F859C73EA">
+<Attribute name="EDAD MAX" id="36D74F46-CE92-E1EC-8C75-0E6F859C73EA">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:21:18 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -56,7 +56,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="909CE0D5-0CA5-8DE3-B74E-A8021D24C3D0" name="PTJE_EDAD PK">
+<identifier id="909CE0D5-0CA5-8DE3-B74E-A8021D24C3D0" name="PTJE_EDAD_PK">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:21:17 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

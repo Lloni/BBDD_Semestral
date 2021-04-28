@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_INSTITUCION" id="8B92192F-F4B1-FD05-37C4-80A608784E97">
+<Attribute name="ID INSTITUCION" id="8B92192F-F4B1-FD05-37C4-80A608784E97">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:31:36 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESC_INSTITUCION" id="2EBB6551-E3DC-001A-17DA-8CAAF54D0E99">
+<Attribute name="DESC INSTITUCION" id="2EBB6551-E3DC-001A-17DA-8CAAF54D0E99">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:32:05 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -54,7 +54,7 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="URL_INSTITUCION" id="5562793C-5C05-8D64-E76E-1DBE83600295">
+<Attribute name="URL INSTITUCION" id="5562793C-5C05-8D64-E76E-1DBE83600295">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:42:26 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -68,7 +68,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_CIUDAD" id="0A0BA66C-0137-BB67-24FA-5ABA6B0D7CC4">
+<Attribute name="ID CIUDAD" id="0A0BA66C-0137-BB67-24FA-5ABA6B0D7CC4">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:43:22 UTC</createdTime>
 <generatorID>3A1662E8-D812-299A-46B1-5C085024A59F</generatorID>
@@ -93,6 +93,18 @@
 <item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>8B92192F-F4B1-FD05-37C4-80A608784E97</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7DB2B94D-9115-064F-286D-9632F56DD283" name="INSTITUCION  UN">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 20:45:18 UTC</createdTime>
+<generatorID>6B97F3FC-2F9B-81A3-0DE6-D2B84E8FC78A</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
 <usedAttributes>
 <attributeRef>8B92192F-F4B1-FD05-37C4-80A608784E97</attributeRef>
 </usedAttributes>

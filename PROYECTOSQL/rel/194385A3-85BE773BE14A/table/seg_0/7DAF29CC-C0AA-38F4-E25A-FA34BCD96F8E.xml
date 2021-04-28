@@ -115,16 +115,6 @@
 <colUsage columnID="3BD1B94B-725F-A2A7-8A54-BCF51A48FA72"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1B5E5D43-5068-8314-EAF5-A74DF0C21F9A" name="POSTULACION__UN">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:35:34 UTC</createdTime>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="3BD1B94B-725F-A2A7-8A54-BCF51A48FA72"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="E100F1C4-3497-7208-2E56-42C3824DA910" name="POSTULACION_INSTITUCION_FK">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>

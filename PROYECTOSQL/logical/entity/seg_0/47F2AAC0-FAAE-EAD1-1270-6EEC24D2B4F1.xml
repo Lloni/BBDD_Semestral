@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47F2AAC0-FAAE-EAD1-1270-6EEC24D2B4F1" name="EXP_LABORAL">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47F2AAC0-FAAE-EAD1-1270-6EEC24D2B4F1" name="EXP LABORAL">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:10:45 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_EXP_LABORAL" id="1A71A008-6501-3B4F-5B11-5B895EC6DF5E">
+<Attribute name="ID EXP LABORAL" id="1A71A008-6501-3B4F-5B11-5B895EC6DF5E">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:10:56 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOM_EMPRESA" id="DAEEE8CB-4C25-D2B7-1625-B518E7797771">
+<Attribute name="NOM EMPRESA" id="DAEEE8CB-4C25-D2B7-1625-B518E7797771">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:11:17 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -42,7 +42,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="INICIO_EXP_LABORAL" id="11EE288F-E085-7FC2-FBF9-6484A735EC81">
+<Attribute name="INICIO EXP LABORAL" id="11EE288F-E085-7FC2-FBF9-6484A735EC81">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:11:55 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -54,7 +54,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FIN_EXP_LABORAL" id="CD1B4A23-E572-12D0-C05E-B3BA68E7276A">
+<Attribute name="FIN EXP LABORAL" id="CD1B4A23-E572-12D0-C05E-B3BA68E7276A">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:12:24 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_POSTULANTE" id="A64AEA5F-EAC4-936B-36D5-28E3FB39473A">
+<Attribute name="ID POSTULANTE" id="A64AEA5F-EAC4-936B-36D5-28E3FB39473A">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:14:15 UTC</createdTime>
 <generatorID>668A871F-A7FC-CC67-840C-87283F806A0B</generatorID>
@@ -83,7 +83,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="28E14911-CA28-079B-38CA-546717CA5480" name="EXP_LABORAL PK">
+<identifier id="28E14911-CA28-079B-38CA-546717CA5480" name="EXP_LABORAL_PK">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:11:16 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

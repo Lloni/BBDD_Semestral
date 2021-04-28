@@ -78,16 +78,6 @@
 <colUsage columnID="C24E8B83-70B7-F31F-E3E5-C06539ECF929"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="791A2A06-948F-64CD-C856-88604E6B3B2A" name="CIUDAD__UN">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:52:41 UTC</createdTime>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C24E8B83-70B7-F31F-E3E5-C06539ECF929"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="9AED7332-97E5-7671-7469-4772C6F78548" name="CIUDAD_REGION_FK">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_PAIS" id="92C84F42-F042-C60D-6E06-A25E0082FA1E">
+<Attribute name="ID PAIS" id="92C84F42-F042-C60D-6E06-A25E0082FA1E">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:10:07 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESC_PAIS" id="FA0CBB73-B8E2-CAEC-B2C6-B115E935731B">
+<Attribute name="DESC PAIS" id="FA0CBB73-B8E2-CAEC-B2C6-B115E935731B">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:10:25 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -40,6 +40,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIONALIDAD" id="B35D64A7-0361-84F7-2FB4-7DE741076F20">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 20:45:18 UTC</createdTime>
+<generatorID>ECE85C39-3D3B-D194-D7C5-B13F9CBCAE03</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

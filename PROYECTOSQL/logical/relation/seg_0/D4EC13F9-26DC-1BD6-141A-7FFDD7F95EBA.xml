@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="D4EC13F9-26DC-1BD6-141A-7FFDD7F95EBA">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CIUDAD PAIS FK" directorySegmentName="seg_0" id="D4EC13F9-26DC-1BD6-141A-7FFDD7F95EBA">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:14:10 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

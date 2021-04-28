@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_POSTULACION" id="719CB28E-575E-5BB9-E492-3023ADA5C6E9">
+<Attribute name="ID POSTULACION" id="719CB28E-575E-5BB9-E492-3023ADA5C6E9">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 00:41:37 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FECHA_POSTULACION" id="7722809A-F518-CB25-C116-055CE86FC732">
+<Attribute name="FECHA POSTULACION" id="7722809A-F518-CB25-C116-055CE86FC732">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 00:41:54 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EVALUA_OBJETIVO" id="D968BF4A-6B74-B19A-C747-E637E3F691AC">
+<Attribute name="EVALUA OBJETIVO" id="D968BF4A-6B74-B19A-C747-E637E3F691AC">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 00:42:35 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -53,7 +53,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EVALUA_RETRIBUCION" id="C3628AC2-511C-B885-5E7A-D89FA660A76E">
+<Attribute name="EVALUA RETRIBUCION" id="C3628AC2-511C-B885-5E7A-D89FA660A76E">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 00:49:57 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -66,7 +66,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EVALUA_DOCE_INVE" id="0BE20061-DA29-1876-1C2B-0AC11724031E">
+<Attribute name="EVALUA DOCE INVE" id="0BE20061-DA29-1876-1C2B-0AC11724031E">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 00:51:47 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -79,7 +79,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_POSTULANTE" id="ACE95C56-8295-4326-8A32-ABCC2CB25CEC">
+<Attribute name="ID POSTULANTE" id="ACE95C56-8295-4326-8A32-ABCC2CB25CEC">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:00:23 UTC</createdTime>
 <generatorID>72A5BB4E-4FCF-7A03-E528-BD6710EA3DBE</generatorID>
@@ -94,7 +94,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_INSTITUCION" id="36C1E7B7-A1CA-AF68-2E10-6943F810DD08">
+<Attribute name="ID INSTITUCION" id="36C1E7B7-A1CA-AF68-2E10-6943F810DD08">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:08:00 UTC</createdTime>
 <generatorID>2A0F6DB9-8453-C8C7-A55B-87CCF8554068</generatorID>

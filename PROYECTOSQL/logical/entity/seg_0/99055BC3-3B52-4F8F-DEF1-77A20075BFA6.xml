@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99055BC3-3B52-4F8F-DEF1-77A20075BFA6" name="PTJE_RANKING">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99055BC3-3B52-4F8F-DEF1-77A20075BFA6" name="PTJE RANKING">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:43:45 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="POSICION_MIN" id="2B625842-9473-CE37-7CC0-B5967F918675">
+<Attribute name="POSICION MIN" id="2B625842-9473-CE37-7CC0-B5967F918675">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:44:05 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="POSICION_MAX" id="E82C170D-2C5C-A2C9-7FBF-1FDE9BA33099">
+<Attribute name="POSICION MAX" id="E82C170D-2C5C-A2C9-7FBF-1FDE9BA33099">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:44:43 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -56,7 +56,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E33661A6-1A1B-5F1D-AF0E-008DB5A9F190" name="PTJE_RANKING PK">
+<identifier id="E33661A6-1A1B-5F1D-AF0E-008DB5A9F190" name="PTJE_RANKING_PK">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:44:42 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

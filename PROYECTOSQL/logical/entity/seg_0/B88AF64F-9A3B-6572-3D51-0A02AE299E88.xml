@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B88AF64F-9A3B-6572-3D51-0A02AE299E88" name="PTJE_OBJETIVO_EST">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B88AF64F-9A3B-6572-3D51-0A02AE299E88" name="PTJE OBJETIVO EST">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:38:54 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -43,7 +43,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="49EE5EFF-BE80-46A1-50DA-C1637BD364BA" name="PTJE_OBJETIVO_EST PK">
+<identifier id="49EE5EFF-BE80-46A1-50DA-C1637BD364BA" name="PTJE_OBJETIVO_EST_PK">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:39:29 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

@@ -63,11 +63,15 @@
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
 <generatorID>095AEE5C-D4B7-3A65-C1FE-0C2BFBC36EE7</generatorID>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
+<constraintName>NOTA_TITULO_CHK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
 <dataTypeScale>1</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="NOTA_TITULO &gt;= 4.0"/>
+</checkConstraint>
 <ownDataTypeParameters>,2,1</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2846D443-6FA7-38E0-AC12-774593DBDCE6" name="PTJE_ACT_DOCENCIA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2846D443-6FA7-38E0-AC12-774593DBDCE6" name="PTJE ACT DOCENCIA">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:37:14 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NIVEL_ACT" id="BC6A5F0C-E698-EBD0-BD94-7E9C2EA56093">
+<Attribute name="NIVEL ACT" id="BC6A5F0C-E698-EBD0-BD94-7E9C2EA56093">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:37:36 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -43,7 +43,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C50DD6B9-F8C8-352E-5B20-C90D80498DC4" name="PTJE_ACT_DOCENCIA PK">
+<identifier id="C50DD6B9-F8C8-352E-5B20-C90D80498DC4" name="PTJE_ACT_DOCENCIA_PK">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:37:59 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_CIUDAD" id="11D7A84E-7F48-732E-8E71-7282C4938BE8">
+<Attribute name="ID CIUDAD" id="11D7A84E-7F48-732E-8E71-7282C4938BE8">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:08:42 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESC_CIUDAD" id="220895AE-C3DB-0601-238E-0D70E8181E2C">
+<Attribute name="DESC CIUDAD" id="220895AE-C3DB-0601-238E-0D70E8181E2C">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:09:06 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_PAIS" id="01A02642-54F8-8EF8-9DA8-794EDE3BF545">
+<Attribute name="ID PAIS" id="01A02642-54F8-8EF8-9DA8-794EDE3BF545">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:14:10 UTC</createdTime>
 <generatorID>D4EC13F9-26DC-1BD6-141A-7FFDD7F95EBA</generatorID>
@@ -56,7 +56,7 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_REGION" id="06BB1D26-3C62-FC94-C5E8-4DDD51A3C3A6">
+<Attribute name="ID REGION" id="06BB1D26-3C62-FC94-C5E8-4DDD51A3C3A6">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:04:38 UTC</createdTime>
 <generatorID>C04B9B11-2C85-70A4-781F-D08BCFCF1C7B</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96ED0D17-3CFD-9A32-660C-B9703C0D901B" name="PTJE_EXP_LABORAL">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96ED0D17-3CFD-9A32-660C-B9703C0D901B" name="PTJE EXP LABORAL">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:33:43 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ANOS_EXP" id="02D37756-EDF2-03A9-9FE0-ACB6DC3D2DEE">
+<Attribute name="ANOS EXP" id="02D37756-EDF2-03A9-9FE0-ACB6DC3D2DEE">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:33:55 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -43,7 +43,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="49B450D9-3FCA-0973-C616-965C3EA1A75B" name="PTJE_EXP_LABORAL PK">
+<identifier id="49B450D9-3FCA-0973-C616-965C3EA1A75B" name="PTJE_EXP_LABORAL_PK">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:34:26 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

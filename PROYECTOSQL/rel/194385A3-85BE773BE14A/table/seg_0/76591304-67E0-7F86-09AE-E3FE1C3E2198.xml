@@ -76,10 +76,14 @@
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
 <generatorID>94CBC6B4-9C8B-1FF1-003E-EF8C57671F6B</generatorID>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
+<constraintName>NUM_RUN_CHK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="NUM_RUN BETWEEN &apos;0000001&apos; and &apos;99999999&apos;"/>
+</checkConstraint>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -88,11 +92,15 @@
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
 <generatorID>BD830EA0-5B43-DE11-582A-028FB9142696</generatorID>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
+<constraintName>DV_RUN_CHK</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="DV_RUN IN (&apos;1&apos;, &apos;2&apos;, &apos;3&apos;, &apos;4&apos;, &apos;5&apos;, &apos;6&apos;, &apos;7&apos;, &apos;8&apos;, &apos;9&apos;, &apos;0&apos;, &apos;k&apos;, &apos;K&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FECHA_NACI" id="2EA1CC3C-B106-C36B-12AD-3F106B1251F6">
@@ -137,11 +145,15 @@
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
 <generatorID>2600A434-2997-99B0-BF22-E30C04842555</generatorID>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
+<constraintName>SEXO_CHK</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="SEXO IN F, M"/>
+</checkConstraint>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -215,22 +227,6 @@
 <colAssociation fkAssociation="36F23BF4-22E9-87F0-22FE-B16FB634B79C" referredColumn="1C164649-D644-9D7A-8038-5E46B71D5A72"/>
 </associations>
 </Column>
-<Column name="NACIONALIDAD" id="AD9D5A16-E6FA-5A6E-A612-C88BFE22A12E">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>A645B939-218A-D792-74B2-F5B6B665BCBA</generatorID>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="708F2351-F540-0A7F-525E-8DFAAFF20589" referredColumn="8EBCCEE9-6DB9-2A4E-C4D3-855B691D1641"/>
-</associations>
-</Column>
 <Column name="ID_CIUDAD" id="A0265033-F738-1F0D-74EB-AE19ACB9DC85">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
@@ -261,10 +257,9 @@
 <colUsage columnID="9C2A3BF6-A1B9-ECC0-5CC0-C319D71EED58"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FA381264-4470-2E9E-9462-F2C748288C58" name="POSTULANTE_NUM_RUN_UN">
+<ind_PK_UK id="957E570B-401C-EE23-C05C-FE26171ACF1B" name="POSTULANTE__UN">
 <createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>5202B7D9-059E-12CA-A1EC-7D1C2967E9E4</generatorID>
+<createdTime>2021-04-28 20:21:40 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -272,7 +267,6 @@
 <colUsage columnID="24282B26-F994-A841-26AE-8270203D717B"/>
 <colUsage columnID="68F3905C-2E36-3121-2E8A-1F0BAC0939B3"/>
 <colUsage columnID="DD8F5753-D984-3DD4-B662-A8AAF2C96C2E"/>
-<colUsage columnID="9C2A3BF6-A1B9-ECC0-5CC0-C319D71EED58"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="46DCC921-1AE5-6695-28D1-43F8AC7E2882" name="POSTULANTE_CIUDAD_FK">
@@ -295,17 +289,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A75A5151-20D5-11F7-5DAD-1D57893AF31A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="88175F4E-6CF9-4A5D-9ED7-C19EA2519004" name="POSTULANTE_PAIS_FK">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>CFD0177B-7096-ABFA-2022-B7E37895938D</generatorID>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="AD9D5A16-E6FA-5A6E-A612-C88BFE22A12E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="019EDD50-731F-64EA-FC73-5898C62AD8F9" name="POSTULANTE_PUEBLO_ORIGINARIO_FK">

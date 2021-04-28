@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_REGION" id="962FB501-3E5B-B841-BF48-39573893CBC3">
+<Attribute name="ID REGION" id="962FB501-3E5B-B841-BF48-39573893CBC3">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:09:35 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESC_REGION" id="B8D63CA1-2B7B-5FB7-0790-787457CCB78C">
+<Attribute name="DESC REGION" id="B8D63CA1-2B7B-5FB7-0790-787457CCB78C">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 23:09:46 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
