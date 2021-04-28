@@ -201,7 +201,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_EST_CIVIL" id="CA7E227E-DF27-7A62-495C-26C2F80CB406">
+<Attribute name="ESTADO_CIVIL" id="CA7E227E-DF27-7A62-495C-26C2F80CB406">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:53:14 UTC</createdTime>
 <generatorID>70BF0524-3060-D038-BADD-506E6097B08F</generatorID>
@@ -216,7 +216,7 @@
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_PUE_ORI" id="05EABC1E-A137-5814-7BB9-D8A279BE129E">
+<Attribute name="PUEBLO_ORIGINARIO" id="05EABC1E-A137-5814-7BB9-D8A279BE129E">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:53:36 UTC</createdTime>
 <generatorID>86A04531-4DAA-F967-EEC8-BA7B99E50414</generatorID>
@@ -226,21 +226,6 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>149F6F60-37A6-B650-E9DC-856613C8D040</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_COMUNA" id="542C8310-0564-BF6E-138F-B432CFE991F3">
-<createdBy>Sebastián Caffi</createdBy>
-<createdTime>2021-04-24 23:13:44 UTC</createdTime>
-<generatorID>014EDDBF-E936-C170-9752-4D127038ADBE</generatorID>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<engineerTo>
-<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
-</engineerTo>
-<referedAttribute>103A586C-F5C4-789B-6BAD-AAE651C73189</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -260,6 +245,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CIUDAD" id="53C39C2D-B26A-1656-14CD-2993DA4F6D48">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-27 23:46:52 UTC</createdTime>
+<generatorID>3460D7A7-FDA8-A555-0081-10DD1066EA59</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<referedAttribute>11D7A84E-7F48-732E-8E71-7282C4938BE8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

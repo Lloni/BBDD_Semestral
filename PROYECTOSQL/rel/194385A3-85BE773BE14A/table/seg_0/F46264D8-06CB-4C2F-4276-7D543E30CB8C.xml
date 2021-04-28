@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F46264D8-06CB-4C2F-4276-7D543E30CB8C" name="PTJE_RANKING">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>99055BC3-3B52-4F8F-DEF1-77A20075BFA6</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POSICION_MIN" id="31FB76C8-0D1B-5F85-5D84-E8761419BED2">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>2B625842-9473-CE37-7CC0-B5967F918675</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSICION_MAX" id="1F31F16B-AF08-40F7-D63A-285CF7CDFD58">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>E82C170D-2C5C-A2C9-7FBF-1FDE9BA33099</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTOS" id="3FBA13FE-4AF5-2FAF-4D33-699556AC4A2A">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>390330FC-522F-01D7-4AF4-E31CA13BF72E</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="586943FF-B71A-1200-692F-301832E95C67" name="PTJE_RANKING_PK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>E33661A6-1A1B-5F1D-AF0E-008DB5A9F190</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31FB76C8-0D1B-5F85-5D84-E8761419BED2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

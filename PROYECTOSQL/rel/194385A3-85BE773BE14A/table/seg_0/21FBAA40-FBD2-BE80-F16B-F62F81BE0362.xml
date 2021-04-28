@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21FBAA40-FBD2-BE80-F16B-F62F81BE0362" name="PTJE_ANTEC_ACADEMICOS">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>EA5D2B9D-D361-278B-7995-064AAD7AE82B</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOTA_MIN" id="34E75F21-64B0-E48E-19AB-F68039951327">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>DD16DB20-658C-CF1C-2197-BE26C0790E76</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTA_MAX" id="0DD1D147-A525-5DC4-6DD5-D002062F71E5">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>28A55960-DD3B-A925-FCEE-6536ABCB34B1</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTOS" id="DFC91AF3-5FDE-5D36-F72B-0F3A96F1BBB2">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>9465E542-6C16-1DAB-84FF-CB1946C60C00</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AD289C4-DEA8-304E-A1D3-C8FA658C24E7" name="PTJE_ANTEC_ACADEMICOS_PK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>0AD896F8-3162-514B-E61A-3E78CF2A8227</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34E75F21-64B0-E48E-19AB-F68039951327"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

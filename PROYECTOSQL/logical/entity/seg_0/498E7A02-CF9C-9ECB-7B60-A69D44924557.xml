@@ -54,6 +54,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_REGION" id="06BB1D26-3C62-FC94-C5E8-4DDD51A3C3A6">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:04:38 UTC</createdTime>
+<generatorID>C04B9B11-2C85-70A4-781F-D08BCFCF1C7B</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<referedAttribute>962FB501-3E5B-B841-BF48-39573893CBC3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -1,0 +1,323 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76591304-67E0-7F86-09AE-E3FE1C3E2198" name="POSTULANTE">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>0930B7B1-B547-28B6-3185-B9A9F0FB9B24</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_POSTULANTE" id="9C2A3BF6-A1B9-ECC0-5CC0-C319D71EED58">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>BFCFE010-754D-AD92-6D2B-9DD4D8407556</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AP_PATERNO" id="D239E413-43D1-36E2-DDB7-B42059232813">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>266DC7D7-BEA3-463B-D463-D564A2BCD0F4</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AP_MATERNO" id="ED163F41-E043-5EA2-687B-BB6C4C7A507E">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>25A05CC1-BC77-C47C-94BC-2C3C5E5AB3A6</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRI_NOMBRE" id="BAE4EB12-B388-A088-8311-6C6484852708">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>A727C01B-43D0-B090-0ACD-04530B208ECB</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEG_NOMBRE" id="87A8833C-4AD1-E225-5C16-18287309146B">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>55B5FA0D-BEE9-4D55-099C-D99A1041E1C8</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_RUN" id="24282B26-F994-A841-26AE-8270203D717B">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>94CBC6B4-9C8B-1FF1-003E-EF8C57671F6B</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DV_RUN" id="063AE200-734F-011A-E251-5C0C74F3ECC4">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>BD830EA0-5B43-DE11-582A-028FB9142696</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACI" id="2EA1CC3C-B106-C36B-12AD-3F106B1251F6">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>1DE75249-8B31-940D-3E65-99065A4B05C0</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASAPORTE" id="68F3905C-2E36-3121-2E8A-1F0BAC0939B3">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>3003D268-636F-45F7-0CD5-558F88D32E99</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISA" id="DD8F5753-D984-3DD4-B662-A8AAF2C96C2E">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>4C6C5046-4A82-DD64-C4C1-5E88232AFE52</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO" id="6AE86840-B281-75F4-F00E-F05346F00E42">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>2600A434-2997-99B0-BF22-E30C04842555</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="833A182B-B281-C46A-9D50-D48D5FEFE048">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>0460844B-25D8-18B4-535B-CC152A077856</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_HIJOS" id="CF90CA5F-5CE9-7C33-C753-CDA056006D2D">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>D01C9FB6-8585-FCCB-9BD0-A9B7EB02E2BB</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCAP_FISICA" id="0E222531-B38C-7C1E-854B-E9A7761D3E67">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>39574622-6978-AD18-EB95-C331D3061AF0</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_CIVIL" id="A75A5151-20D5-11F7-5DAD-1D57893AF31A">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>CA7E227E-DF27-7A62-495C-26C2F80CB406</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09FA66F6-B7C5-2E52-D503-EDACD2EB6E13" referredColumn="20117DD7-0883-27FE-DAB4-924FA86CA8F6"/>
+</associations>
+</Column>
+<Column name="PUEBLO_ORIGINARIO" id="5B1E46E5-0476-07DF-1C2E-015FD0BF42C9">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>05EABC1E-A137-5814-7BB9-D8A279BE129E</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36F23BF4-22E9-87F0-22FE-B16FB634B79C" referredColumn="1C164649-D644-9D7A-8038-5E46B71D5A72"/>
+</associations>
+</Column>
+<Column name="NACIONALIDAD" id="AD9D5A16-E6FA-5A6E-A612-C88BFE22A12E">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>A645B939-218A-D792-74B2-F5B6B665BCBA</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="708F2351-F540-0A7F-525E-8DFAAFF20589" referredColumn="8EBCCEE9-6DB9-2A4E-C4D3-855B691D1641"/>
+</associations>
+</Column>
+<Column name="ID_CIUDAD" id="A0265033-F738-1F0D-74EB-AE19ACB9DC85">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>53C39C2D-B26A-1656-14CD-2993DA4F6D48</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="196645F0-6E4F-CC99-5F4C-B30B60720A29" referredColumn="C24E8B83-70B7-F31F-E3E5-C06539ECF929"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2248B69E-6319-DFBC-9345-08AE3300EB4F" name="POSTULANTE_PK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>C6FB8A76-2508-0A97-99C0-3654076A5001</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C2A3BF6-A1B9-ECC0-5CC0-C319D71EED58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA381264-4470-2E9E-9462-F2C748288C58" name="POSTULANTE_NUM_RUN_UN">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>5202B7D9-059E-12CA-A1EC-7D1C2967E9E4</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24282B26-F994-A841-26AE-8270203D717B"/>
+<colUsage columnID="68F3905C-2E36-3121-2E8A-1F0BAC0939B3"/>
+<colUsage columnID="DD8F5753-D984-3DD4-B662-A8AAF2C96C2E"/>
+<colUsage columnID="9C2A3BF6-A1B9-ECC0-5CC0-C319D71EED58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46DCC921-1AE5-6695-28D1-43F8AC7E2882" name="POSTULANTE_CIUDAD_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>3460D7A7-FDA8-A555-0081-10DD1066EA59</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0265033-F738-1F0D-74EB-AE19ACB9DC85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CDE6338-BA37-3501-72B5-50D108F32CE2" name="POSTULANTE_ESTADO_CIVIL_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>70BF0524-3060-D038-BADD-506E6097B08F</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A75A5151-20D5-11F7-5DAD-1D57893AF31A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88175F4E-6CF9-4A5D-9ED7-C19EA2519004" name="POSTULANTE_PAIS_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>CFD0177B-7096-ABFA-2022-B7E37895938D</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD9D5A16-E6FA-5A6E-A612-C88BFE22A12E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="019EDD50-731F-64EA-FC73-5898C62AD8F9" name="POSTULANTE_PUEBLO_ORIGINARIO_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>86A04531-4DAA-F967-EEC8-BA7B99E50414</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B1E46E5-0476-07DF-1C2E-015FD0BF42C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23E1E5CA-5EEB-B4F5-F5CD-7F9C0EB0FCAA" containerWithKeyObject="A7163EFF-AFC4-C15D-F4C6-F3DC81C34ED2" localFKIndex="16D89E16-1483-74CF-D310-E5F5D569409A" name="ANTECEDENTES_ACADEMICOS_POSTULANTE_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-28 00:12:24 UTC</createdTime>
+<generatorID>2EE1A866-5715-0A47-A0B6-98302C427F79</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<referredTableLongName>POSTULANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76591304-67E0-7F86-09AE-E3FE1C3E2198</referredTableID>
+<keyObject>2248B69E-6319-DFBC-9345-08AE3300EB4F</keyObject>
+<referredKeyID>2248B69E-6319-DFBC-9345-08AE3300EB4F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_POSTULANTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

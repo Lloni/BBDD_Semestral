@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="70BF0524-3060-D038-BADD-506E6097B08F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESTADO_CIVIL-POSTULANTE-FK" directorySegmentName="seg_0" id="70BF0524-3060-D038-BADD-506E6097B08F">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:53:14 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
