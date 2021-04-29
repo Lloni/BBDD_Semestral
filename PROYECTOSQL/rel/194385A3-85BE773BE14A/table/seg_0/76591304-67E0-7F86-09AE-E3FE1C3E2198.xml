@@ -203,7 +203,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -220,7 +220,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -236,7 +236,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -290,16 +290,6 @@
 <colUsage columnID="9C2A3BF6-A1B9-ECC0-5CC0-C319D71EED58"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="957E570B-401C-EE23-C05C-FE26171ACF1B" name="POSTULANTE_NUM_RUN_PASAPORTE_VISA_UN">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 20:21:40 UTC</createdTime>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="24282B26-F994-A841-26AE-8270203D717B"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="76FE5879-72DA-B672-D9F8-1A9CE4F07C9F" name="POSTULANTE_NUM_RUN_UN">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:45:33 UTC</createdTime>
@@ -333,7 +323,7 @@
 <colUsage columnID="A75A5151-20D5-11F7-5DAD-1D57893AF31A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="019EDD50-731F-64EA-FC73-5898C62AD8F9" name="POSTULANTE_PUEBLO_ORIGINARIO_FK">
+<ind_PK_UK id="019EDD50-731F-64EA-FC73-5898C62AD8F9" name="POST_PUE_OR_FK">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
 <generatorID>86A04531-4DAA-F967-EEC8-BA7B99E50414</generatorID>
@@ -355,7 +345,7 @@
 <colUsage columnID="A4977D0B-F18C-72F2-7497-056836B09E14"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="680AFB75-19C3-6C6A-E4DF-CC3AB04519F2" name="POSTULANTE_DOC_EXTRANJERO_FK">
+<ind_PK_UK id="680AFB75-19C3-6C6A-E4DF-CC3AB04519F2" name="POST_DOC_FK">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:45:33 UTC</createdTime>
 <generatorID>C96B266D-5052-65A2-CDD6-EA30E36428A0</generatorID>

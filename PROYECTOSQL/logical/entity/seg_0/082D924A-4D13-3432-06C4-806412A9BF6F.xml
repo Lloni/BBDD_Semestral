@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_SUBESPECIALIDAD" id="71C65A23-6B3F-8F4C-2A35-5F4FF6F6839F">
+<Attribute name="ID SUBESPECIALIDAD" id="71C65A23-6B3F-8F4C-2A35-5F4FF6F6839F">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:38:43 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE_SUBESP" id="C45020D3-110F-BC13-C416-F9A381D54256">
+<Attribute name="NOMBRE SUBESP" id="C45020D3-110F-BC13-C416-F9A381D54256">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:38:54 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -55,7 +55,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ANNOS_DURACION" id="0FD919FA-2741-FD7D-F18F-6FD75900B958">
+<Attribute name="ANNOS DURACION" id="0FD919FA-2741-FD7D-F18F-6FD75900B958">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:43:37 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -101,7 +101,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="90DFD41A-DD9F-D99B-5D4C-6B70CED1807F" name="ESPECIALIDAD PK">
+<identifier id="90DFD41A-DD9F-D99B-5D4C-6B70CED1807F" name="SUBESPECIALIDAD_PK">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:38:53 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_NACIONALIDAD" id="2DCDD8CF-239C-DBEA-4C63-FB97B3CAC61F">
+<Attribute name="ID NACIONALIDAD" id="2DCDD8CF-239C-DBEA-4C63-FB97B3CAC61F">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:20:07 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

@@ -50,7 +50,7 @@
 <colUsage columnID="5789CBCD-6A6D-65D7-B7DE-825212DE8D22"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CC3F99B5-A0A2-1047-597B-0CF7DE98FC43" name="PUNTAJE_ASIGNADO_POSTULANTE_FK">
+<ind_PK_UK id="CC3F99B5-A0A2-1047-597B-0CF7DE98FC43" name="PUNT_ASIG_POST_FK">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:45:33 UTC</createdTime>
 <generatorID>9A6E1815-320E-8C35-C5F8-487CA21F825D</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E72EFD1-F50D-AA90-062C-374278F22DE7" containerWithKeyObject="5B798BED-A118-68B7-1AB7-1B91E4EA1328" localFKIndex="CC3F99B5-A0A2-1047-597B-0CF7DE98FC43" name="PUNTAJE_ASIGNADO_POSTULANTE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E72EFD1-F50D-AA90-062C-374278F22DE7" containerWithKeyObject="5B798BED-A118-68B7-1AB7-1B91E4EA1328" localFKIndex="CC3F99B5-A0A2-1047-597B-0CF7DE98FC43" name="PUNT_ASIG_POST_FK">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:45:33 UTC</createdTime>
 <generatorID>9A6E1815-320E-8C35-C5F8-487CA21F825D</generatorID>

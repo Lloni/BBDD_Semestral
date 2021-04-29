@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B439C463-9E75-3F2A-9AE8-C83BA984F8E3" name="PUNTAJE_ASIGNADO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B439C463-9E75-3F2A-9AE8-C83BA984F8E3" name="PUNTAJE ASIGNADO">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:29:30 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -45,7 +45,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="479BA954-A785-CCE3-E5AD-299F7701DBF3" name="PUNTAJE_ASIGNADO PK">
+<identifier id="479BA954-A785-CCE3-E5AD-299F7701DBF3" name="PUNTAJE_ASIGNADO_PK">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:31:49 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

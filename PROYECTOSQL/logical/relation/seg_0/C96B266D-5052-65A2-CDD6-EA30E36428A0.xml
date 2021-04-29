@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POS-DOC_EX-FK" directorySegmentName="seg_0" id="C96B266D-5052-65A2-CDD6-EA30E36428A0">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POST DOC FK" directorySegmentName="seg_0" id="C96B266D-5052-65A2-CDD6-EA30E36428A0">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-29 21:24:15 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
