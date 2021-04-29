@@ -1,51 +1,49 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44C66613-7AD0-21FE-BBDA-50CCBF2F742A" name="PAIS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8F74B2E-5CC1-5CAA-48E7-2706FCAC39CB" name="NACIONALIDAD">
 <createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>F2FD40E6-9B4E-4536-A2C1-A41777DF8E54</generatorID>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>A2FAC853-8527-C012-97D9-0DD84DC92F92</generatorID>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_PAIS" id="8EBCCEE9-6DB9-2A4E-C4D3-855B691D1641">
+<Column name="ID_NACIONALIDAD" id="520875C1-6AC0-5653-0A98-4F4FD6B4D8EF">
 <createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>92C84F42-F042-C60D-6E06-A25E0082FA1E</generatorID>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>2DCDD8CF-239C-DBEA-4C63-FB97B3CAC61F</generatorID>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DESC_PAIS" id="098E6159-E628-0C54-91CC-9BACD1704122">
+<Column name="NACIONALIDAD" id="0C79255D-BEDF-5B0A-84BC-E6EA58306A6B">
 <createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>FA0CBB73-B8E2-CAEC-B2C6-B115E935731B</generatorID>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>EDD5BA2D-FABC-9F5E-9F6D-938946361E32</generatorID>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CFA9FD86-D6CD-8448-9364-0F318834C89D" name="PAIS_PK">
+<ind_PK_UK id="82F57909-0795-4E6A-4966-042EECAFC865" name="NACIONALIDAD_PK">
 <createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>1EE841D6-1FE8-8347-086E-28F99D9F75A4</generatorID>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>235F0EAE-53D1-CEE0-37B5-06F50BCE8347</generatorID>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8EBCCEE9-6DB9-2A4E-C4D3-855B691D1641"/>
+<colUsage columnID="520875C1-6AC0-5653-0A98-4F4FD6B4D8EF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

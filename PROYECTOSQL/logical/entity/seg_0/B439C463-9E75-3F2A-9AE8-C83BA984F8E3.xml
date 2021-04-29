@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2FD40E6-9B4E-4536-A2C1-A41777DF8E54" name="PAIS">
-<createdBy>Sebastián Caffi</createdBy>
-<createdTime>2021-04-24 23:10:03 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B439C463-9E75-3F2A-9AE8-C83BA984F8E3" name="PUNTAJE_ASIGNADO">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:29:30 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <engineerTo>
 <item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
@@ -15,9 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID PAIS" id="92C84F42-F042-C60D-6E06-A25E0082FA1E">
-<createdBy>Sebastián Caffi</createdBy>
-<createdTime>2021-04-24 23:10:07 UTC</createdTime>
+<Attribute name="ID POSTULANTE" id="917BC077-8D9A-7B4F-73ED-557D8AFE9379">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:30:55 UTC</createdTime>
+<generatorID>9A6E1815-320E-8C35-C5F8-487CA21F825D</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<referedAttribute>BFCFE010-754D-AD92-6D2B-9DD4D8407556</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PUNTAJE" id="6441EA42-5833-82A5-4980-CC25C20EBCC2">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:30:28 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <engineerTo>
 <item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
@@ -25,35 +40,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESC PAIS" id="FA0CBB73-B8E2-CAEC-B2C6-B115E935731B">
-<createdBy>Sebastián Caffi</createdBy>
-<createdTime>2021-04-24 23:10:25 UTC</createdTime>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="479BA954-A785-CCE3-E5AD-299F7701DBF3" name="PUNTAJE_ASIGNADO PK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:31:49 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <engineerTo>
 <item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1EE841D6-1FE8-8347-086E-28F99D9F75A4" name="PAIS PK">
-<createdBy>Sebastián Caffi</createdBy>
-<createdTime>2021-04-24 23:10:24 UTC</createdTime>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="false"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>92C84F42-F042-C60D-6E06-A25E0082FA1E</attributeRef>
+<attributeRef>917BC077-8D9A-7B4F-73ED-557D8AFE9379</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

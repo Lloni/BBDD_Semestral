@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF274D2A-A2B2-7EDD-19A3-7ED0A1E25798" name="DOC_EXTRANJERO">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>774E5335-EAFF-B820-DBC0-3660335620FA</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DOC_EXTRANJERO" id="5D72DA0A-4512-4244-A6CE-F1B80227EE99">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>BE0D9891-5B28-9FC9-E329-C73539C9B6DA</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASAPORTE" id="21428959-B0B7-0E05-5E7C-E3A919173721">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>56745E71-26D8-D133-1831-6807C1AA1D66</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISA" id="956690A1-8760-20A9-2B59-3D4D7FD6AFEF">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>1BF86FEC-A39E-02A1-CE85-081C7EE5CAEE</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F57A0CA3-D043-C1D9-277A-21AD36BB0EB6" name="DOC_EXTRANJERO_PK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>149D50BC-1DA9-F371-DCA7-0030511402FA</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D72DA0A-4512-4244-A6CE-F1B80227EE99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANT ACAD POST FK" directorySegmentName="seg_0" id="2EE1A866-5715-0A47-A0B6-98302C427F79">
-<createdBy>Sebastián Caffi</createdBy>
-<createdTime>2021-04-24 23:30:52 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POS-PUNT-FK" directorySegmentName="seg_0" id="9A6E1815-320E-8C35-C5F8-487CA21F825D">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:30:55 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <engineerTo>
 <item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
 </engineerTo>
 <sourcePk>C6FB8A76-2508-0A97-99C0-3654076A5001</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>0930B7B1-B547-28B6-3185-B9A9F0FB9B24</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>ABBB01DF-0A0D-E1F7-E517-045437B89A7C</targetEntity>
+<targetEntity>B439C463-9E75-3F2A-9AE8-C83BA984F8E3</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

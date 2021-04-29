@@ -68,7 +68,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -89,7 +89,7 @@
 <colUsage columnID="C036F5FD-C9A3-1EBC-EB5A-A70D8C7CA3A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6B97F3FC-2F9B-81A3-0DE6-D2B84E8FC78A" name="INSTITUCION__UN">
+<ind_PK_UK id="6B97F3FC-2F9B-81A3-0DE6-D2B84E8FC78A" name="INSTITUCION_ID_INSTITUCION_UN">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:50:37 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

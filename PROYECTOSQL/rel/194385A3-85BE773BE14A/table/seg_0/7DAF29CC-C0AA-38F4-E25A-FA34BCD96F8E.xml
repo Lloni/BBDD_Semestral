@@ -78,27 +78,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="BF9CDB9A-E2AD-15AB-021C-1C3794F10DD7" referredColumn="9C2A3BF6-A1B9-ECC0-5CC0-C319D71EED58"/>
-</associations>
-</Column>
-<Column name="ID_INSTITUCION" id="B341162E-D0C9-BAA7-DEAA-19A66057E0C4">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>36C1E7B7-A1CA-AF68-2E10-6943F810DD08</generatorID>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="98DE8AD9-1CFD-D6C5-EEA1-95A425A1B29E" referredColumn="C036F5FD-C9A3-1EBC-EB5A-A70D8C7CA3A4"/>
 </associations>
 </Column>
 <Column name="CERT_CED_IDENTIDAD" id="2DA2F26C-84C3-E96B-48D9-D8F84F553431">
@@ -183,17 +167,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3BD1B94B-725F-A2A7-8A54-BCF51A48FA72"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="E100F1C4-3497-7208-2E56-42C3824DA910" name="POSTULACION_INSTITUCION_FK">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>2A0F6DB9-8453-C8C7-A55B-87CCF8554068</generatorID>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B341162E-D0C9-BAA7-DEAA-19A66057E0C4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F3D13523-0751-FE9E-DB78-131CB9480C03" name="POSTULACION_POSTULANTE_FK">

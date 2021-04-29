@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB11B315-AB4A-BC70-AB20-FF475570D8D2" containerWithKeyObject="76591304-67E0-7F86-09AE-E3FE1C3E2198" localFKIndex="680AFB75-19C3-6C6A-E4DF-CC3AB04519F2" name="POSTULANTE_DOC_EXTRANJERO_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>C96B266D-5052-65A2-CDD6-EA30E36428A0</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<referredTableLongName>DOC_EXTRANJERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF274D2A-A2B2-7EDD-19A3-7ED0A1E25798</referredTableID>
+<keyObject>F57A0CA3-D043-C1D9-277A-21AD36BB0EB6</keyObject>
+<referredKeyID>F57A0CA3-D043-C1D9-277A-21AD36BB0EB6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_DOC_EXTRANJERO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

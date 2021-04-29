@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANT ACAD POST FK" directorySegmentName="seg_0" id="2EE1A866-5715-0A47-A0B6-98302C427F79">
-<createdBy>Sebastián Caffi</createdBy>
-<createdTime>2021-04-24 23:30:52 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTU-SUBESP-FK" directorySegmentName="seg_0" id="8F837C1F-38B1-801F-C468-D87B8C656365">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:44:33 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <engineerTo>
 <item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
 </engineerTo>
-<sourcePk>C6FB8A76-2508-0A97-99C0-3654076A5001</sourcePk>
+<sourcePk>57A55BE7-05FB-55E4-1009-49E9351C4792</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>0930B7B1-B547-28B6-3185-B9A9F0FB9B24</sourceEntity>
+<sourceEntity>71CD9820-6E11-7139-1F66-6FE3A7E4FED6</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>ABBB01DF-0A0D-E1F7-E517-045437B89A7C</targetEntity>
+<targetEntity>082D924A-4D13-3432-06C4-806412A9BF6F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POST PUEB FK" directorySegmentName="seg_0" id="86A04531-4DAA-F967-EEC8-BA7B99E50414">
-<createdBy>Sebastián Caffi</createdBy>
-<createdTime>2021-04-24 22:53:36 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POS-DOC_EX-FK" directorySegmentName="seg_0" id="C96B266D-5052-65A2-CDD6-EA30E36428A0">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:24:15 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <engineerTo>
 <item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
 </engineerTo>
-<sourcePk>DD8ADA84-FB4A-8DD8-EAF3-CFDBFA885923</sourcePk>
+<sourcePk>149D50BC-1DA9-F371-DCA7-0030511402FA</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>2FBD9585-85C0-68B6-FF05-3CFC511532F4</sourceEntity>
+<sourceEntity>774E5335-EAFF-B820-DBC0-3660335620FA</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>0930B7B1-B547-28B6-3185-B9A9F0FB9B24</targetEntity>
 <transferable>true</transferable>

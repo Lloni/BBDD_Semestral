@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3897A44-7F78-961B-7766-09243E589D7C" containerWithKeyObject="CBB8552D-A3C8-ED30-F4B3-85C4708FAA9E" localFKIndex="B24F13EF-3576-AA7C-CE30-3513082BBFE3" name="SUBESPECIALIDAD_POSTULACION_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>8F837C1F-38B1-801F-C468-D87B8C656365</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<referredTableLongName>POSTULACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DAF29CC-C0AA-38F4-E25A-FA34BCD96F8E</referredTableID>
+<keyObject>E083899A-3A5D-E9E2-D834-CD68C1AEF1E0</keyObject>
+<referredKeyID>E083899A-3A5D-E9E2-D834-CD68C1AEF1E0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_POSTULACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

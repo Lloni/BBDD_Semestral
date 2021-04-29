@@ -127,34 +127,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PASAPORTE" id="3003D268-636F-45F7-0CD5-558F88D32E99">
-<createdBy>Sebastián Caffi</createdBy>
-<createdTime>2021-04-24 22:41:26 UTC</createdTime>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<engineerTo>
-<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VISA" id="4C6C5046-4A82-DD64-C4C1-5E88232AFE52">
-<createdBy>Sebastián Caffi</createdBy>
-<createdTime>2021-04-24 22:42:17 UTC</createdTime>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<engineerTo>
-<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="SEXO" id="2600A434-2997-99B0-BF22-E30C04842555">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:58:31 UTC</createdTime>
@@ -226,9 +198,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID PUE ORI" id="05EABC1E-A137-5814-7BB9-D8A279BE129E">
+<Attribute name="PUEBLO ORIGINARIO" id="05EABC1E-A137-5814-7BB9-D8A279BE129E">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:53:36 UTC</createdTime>
 <generatorID>86A04531-4DAA-F967-EEC8-BA7B99E50414</generatorID>
@@ -244,21 +216,6 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID PAIS" id="A645B939-218A-D792-74B2-F5B6B665BCBA">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-26 23:51:04 UTC</createdTime>
-<generatorID>CFD0177B-7096-ABFA-2022-B7E37895938D</generatorID>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<engineerTo>
-<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
-</engineerTo>
-<referedAttribute>92C84F42-F042-C60D-6E06-A25E0082FA1E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID CIUDAD" id="53C39C2D-B26A-1656-14CD-2993DA4F6D48">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-27 23:46:52 UTC</createdTime>
@@ -272,6 +229,37 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_NACIONALIDAD" id="0E226A67-A0A9-7462-0CCA-DFB04044780A">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:21:20 UTC</createdTime>
+<generatorID>6AF33638-517E-4224-E150-8E6988DDD038</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<referedAttribute>2DCDD8CF-239C-DBEA-4C63-FB97B3CAC61F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DOC_EXTRANJERO" id="14EDC314-8F8C-086A-4BB2-EDE93AC189E8">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:24:15 UTC</createdTime>
+<generatorID>C96B266D-5052-65A2-CDD6-EA30E36428A0</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BE0D9891-5B28-9FC9-E329-C73539C9B6DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -280,8 +268,9 @@
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:38:52 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -310,8 +299,6 @@
 </engineerTo>
 <usedAttributes>
 <attributeRef>94CBC6B4-9C8B-1FF1-003E-EF8C57671F6B</attributeRef>
-<attributeRef>3003D268-636F-45F7-0CD5-558F88D32E99</attributeRef>
-<attributeRef>4C6C5046-4A82-DD64-C4C1-5E88232AFE52</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

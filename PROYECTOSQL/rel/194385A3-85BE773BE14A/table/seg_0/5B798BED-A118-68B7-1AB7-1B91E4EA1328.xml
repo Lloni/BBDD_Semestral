@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B798BED-A118-68B7-1AB7-1B91E4EA1328" name="PUNTAJE_ASIGNADO">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>B439C463-9E75-3F2A-9AE8-C83BA984F8E3</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_POSTULANTE" id="5789CBCD-6A6D-65D7-B7DE-825212DE8D22">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>917BC077-8D9A-7B4F-73ED-557D8AFE9379</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E72EFD1-F50D-AA90-062C-374278F22DE7" referredColumn="9C2A3BF6-A1B9-ECC0-5CC0-C319D71EED58"/>
+</associations>
+</Column>
+<Column name="PUNTAJE" id="09F71667-845E-466D-1373-4AA57D5DBB4C">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>6441EA42-5833-82A5-4980-CC25C20EBCC2</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="537EA7A2-3EE7-D09B-0620-CD381FF35ABE" name="PUNTAJE_ASIGNADO_PK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>479BA954-A785-CCE3-E5AD-299F7701DBF3</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5789CBCD-6A6D-65D7-B7DE-825212DE8D22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC3F99B5-A0A2-1047-597B-0CF7DE98FC43" name="PUNTAJE_ASIGNADO_POSTULANTE_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>9A6E1815-320E-8C35-C5F8-487CA21F825D</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5789CBCD-6A6D-65D7-B7DE-825212DE8D22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

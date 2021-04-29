@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBB8552D-A3C8-ED30-F4B3-85C4708FAA9E" name="SUBESPECIALIDAD">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>082D924A-4D13-3432-06C4-806412A9BF6F</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SUBESPECIALIDAD" id="0D6C0264-9AAC-9214-DCE2-E74797E3D6BA">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>71C65A23-6B3F-8F4C-2A35-5F4FF6F6839F</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_SUBESP" id="64AD8AAB-6A84-0138-A393-FE566387A260">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>C45020D3-110F-BC13-C416-F9A381D54256</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDIOMA" id="B179E6F7-DF52-0603-443C-A789575084AF">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>3A86D2D6-283D-298D-9863-823784AB0CE5</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANNOS_DURACION" id="56E02015-6F67-0161-EA28-597F410333A8">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>0FD919FA-2741-FD7D-F18F-6FD75900B958</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_POSTULACION" id="F31C317D-3176-37F8-CB84-B6F78C840CEF">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>DBD62DB9-C7E0-2C8A-AFB2-01471C90C2B0</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3897A44-7F78-961B-7766-09243E589D7C" referredColumn="3BD1B94B-725F-A2A7-8A54-BCF51A48FA72"/>
+</associations>
+</Column>
+<Column name="ID_INSTITUCION" id="C56DF265-1D74-32E6-CE98-4D198BDB8FFA">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>950573A1-5005-81A5-0268-010513F34674</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D673A1FA-50AC-A832-B618-9BB48D286697" referredColumn="C036F5FD-C9A3-1EBC-EB5A-A70D8C7CA3A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="667F0C98-1C00-DB73-7575-594DCFF91939" name="SUBESPECIALIDAD_PK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>90DFD41A-DD9F-D99B-5D4C-6B70CED1807F</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D6C0264-9AAC-9214-DCE2-E74797E3D6BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC040246-C8C6-4ADA-6044-95221DDFC859" name="SUBESPECIALIDAD_INSTITUCION_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>9469093F-C4EE-AD10-4E35-EDD0745F28D0</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C56DF265-1D74-32E6-CE98-4D198BDB8FFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B24F13EF-3576-AA7C-CE30-3513082BBFE3" name="SUBESPECIALIDAD_POSTULACION_FK">
+<createdBy>lloni</createdBy>
+<createdTime>2021-04-29 21:45:33 UTC</createdTime>
+<generatorID>8F837C1F-38B1-801F-C468-D87B8C656365</generatorID>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F31C317D-3176-37F8-CB84-B6F78C840CEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
