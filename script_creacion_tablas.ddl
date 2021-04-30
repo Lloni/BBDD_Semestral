@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 19.4.0.350.1424
---   en:        2021-04-29 18:39:00 CLT
+--   en:        2021-04-29 19:58:28 CLT
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -24,7 +24,7 @@ CREATE TABLE ciudad (
     id_ciudad    NUMBER(2) NOT NULL,
     desc_ciudad  VARCHAR2(20) NOT NULL,
     id_pais      NUMBER(3) NOT NULL,
-    id_region    NUMBER(2) NOT NULL
+    id_region    NUMBER(2)
 );
 
 ALTER TABLE ciudad ADD CONSTRAINT ciudad_pk PRIMARY KEY ( id_ciudad );

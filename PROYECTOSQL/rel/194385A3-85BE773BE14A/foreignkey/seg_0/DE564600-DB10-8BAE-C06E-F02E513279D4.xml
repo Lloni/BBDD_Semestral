@@ -9,7 +9,7 @@
 <referredTableID>CB0ECF52-50D4-40FA-8284-A8E0ECBF8289</referredTableID>
 <keyObject>3DA58289-840F-56A9-CBE7-A9336026ACBA</keyObject>
 <referredKeyID>3DA58289-840F-56A9-CBE7-A9336026ACBA</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ID_REGION</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

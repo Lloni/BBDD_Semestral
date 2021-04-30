@@ -214,7 +214,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID CIUDAD" id="53C39C2D-B26A-1656-14CD-2993DA4F6D48">
 <createdBy>lloni</createdBy>
@@ -244,7 +244,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID DOC EXTRANJERO" id="14EDC314-8F8C-086A-4BB2-EDE93AC189E8">
 <createdBy>lloni</createdBy>
@@ -260,7 +260,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PASAPORTE" id="411FAAAD-8C15-CFE9-7BAF-83EDB975DA3F">
 <createdBy>lloni</createdBy>

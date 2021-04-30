@@ -55,6 +55,7 @@
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
 <generatorID>06BB1D26-3C62-FC94-C5E8-4DDD51A3C3A6</generatorID>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
