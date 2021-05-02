@@ -222,7 +222,7 @@ ALTER TABLE postulante
 ALTER TABLE postulante
     ADD CONSTRAINT sexo_chk CHECK ( sexo IN (
         'F',
-        ' M'
+        'M'
     ) );
 
 ALTER TABLE postulante ADD CONSTRAINT postulante_pk PRIMARY KEY ( id_postulante );

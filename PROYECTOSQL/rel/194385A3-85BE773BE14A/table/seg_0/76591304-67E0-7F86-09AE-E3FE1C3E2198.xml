@@ -112,32 +112,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PASAPORTE" id="68F3905C-2E36-3121-2E8A-1F0BAC0939B3">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>3003D268-636F-45F7-0CD5-558F88D32E99</generatorID>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="VISA" id="DD8F5753-D984-3DD4-B662-A8AAF2C96C2E">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:12:24 UTC</createdTime>
-<generatorID>4C6C5046-4A82-DD64-C4C1-5E88232AFE52</generatorID>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="SEXO" id="6AE86840-B281-75F4-F00E-F05346F00E42">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
@@ -150,7 +124,7 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="SEXO IN (&apos;F&apos;,&apos; M&apos;)"/>
+<implementationDef dbType="Generic Constraint" definition="SEXO IN (&apos;F&apos;,&apos;M&apos;)"/>
 </checkConstraint>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
