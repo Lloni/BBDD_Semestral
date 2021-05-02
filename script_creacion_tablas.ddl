@@ -1,9 +1,75 @@
--- Generado por Oracle SQL Developer Data Modeler 19.4.0.350.1424
---   en:        2021-04-29 19:58:28 CLT
---   sitio:      Oracle Database 11g
---   tipo:      Oracle Database 11g
+--BORRAR TABLAS
+
+DROP TABLE antecedentes_academicos CASCADE CONSTRAINTS;
+
+DROP TABLE ciudad CASCADE CONSTRAINTS;
+
+DROP TABLE criterio_evaluacion CASCADE CONSTRAINTS;
+
+DROP TABLE doc_extranjero CASCADE CONSTRAINTS;
+
+DROP TABLE error_sistema CASCADE CONSTRAINTS;
+
+DROP TABLE estado_civil CASCADE CONSTRAINTS;
+
+DROP TABLE exp_laboral CASCADE CONSTRAINTS;
+
+DROP TABLE institucion CASCADE CONSTRAINTS;
+
+DROP TABLE nacionalidad CASCADE CONSTRAINTS;
+
+DROP TABLE pais CASCADE CONSTRAINTS;
+
+DROP TABLE postulacion CASCADE CONSTRAINTS;
+
+DROP TABLE postulante CASCADE CONSTRAINTS;
+
+DROP TABLE ptje_act_docencia CASCADE CONSTRAINTS;
+
+DROP TABLE ptje_antec_academicos CASCADE CONSTRAINTS;
+
+DROP TABLE ptje_decl_interes CASCADE CONSTRAINTS;
+
+DROP TABLE ptje_edad CASCADE CONSTRAINTS;
+
+DROP TABLE ptje_estado_civil CASCADE CONSTRAINTS;
+
+DROP TABLE ptje_exp_laboral CASCADE CONSTRAINTS;
+
+DROP TABLE ptje_objetivo_est CASCADE CONSTRAINTS;
+
+DROP TABLE ptje_ranking CASCADE CONSTRAINTS;
+
+DROP TABLE ptje_retribucion CASCADE CONSTRAINTS;
+
+DROP TABLE ptje_zona_extrema CASCADE CONSTRAINTS;
+
+DROP TABLE pueblo_originario CASCADE CONSTRAINTS;
+
+DROP TABLE puntaje_asignado CASCADE CONSTRAINTS;
+
+DROP TABLE region CASCADE CONSTRAINTS;
+
+DROP TABLE subespecialidad CASCADE CONSTRAINTS;
+
+--BORRAR SECUENCIAS
+
+DROP SEQUENCE SEQ_ESTADO_CIVIL;
+DROP SEQUENCE SEQ_PUEBLO_ORIGINARIO;
+DROP SEQUENCE SEQ_NACIONALIDAD;
+DROP SEQUENCE SEQ_PAIS;
+DROP SEQUENCE SEQ_REGION;
+
+--CREAR SECUENCIAS
+
+CREATE SEQUENCE SEQ_ESTADO_CIVIL;
+CREATE SEQUENCE SEQ_PUEBLO_ORIGINARIO;
+CREATE SEQUENCE SEQ_NACIONALIDAD;
+CREATE SEQUENCE SEQ_PAIS;
+CREATE SEQUENCE SEQ_REGION;
 
 
+--CREAR TABLAS
 
 CREATE TABLE antecedentes_academicos (
     id_ant_acad     NUMBER(5) NOT NULL,
@@ -47,8 +113,8 @@ ALTER TABLE doc_extranjero ADD CONSTRAINT doc_extranjero_pk PRIMARY KEY ( id_doc
 
 CREATE TABLE error_sistema (
     id_error       NUMBER(4) NOT NULL,
-    modulo_error   VARCHAR2(50) NOT NULL,
-    mensaje_error  VARCHAR2(100) NOT NULL
+    modulo_error   VARCHAR2(9) NOT NULL,
+    mensaje_error  NUMBER(8) NOT NULL
 );
 
 ALTER TABLE error_sistema ADD CONSTRAINT error_sistema_pk PRIMARY KEY ( id_error );
@@ -79,8 +145,6 @@ CREATE TABLE institucion (
 );
 
 ALTER TABLE institucion ADD CONSTRAINT institucion_pk PRIMARY KEY ( id_institucion );
-
-ALTER TABLE institucion ADD CONSTRAINT institucion_id_institucion_un UNIQUE ( id_institucion );
 
 CREATE TABLE nacionalidad (
     id_nacionalidad  NUMBER(3) NOT NULL,
@@ -155,8 +219,11 @@ ALTER TABLE postulante
         'K'
     ) );
 
-ALTER TABLE postulante add constraint sexo_chk check(sexo IN f, m) 
-;
+ALTER TABLE postulante
+    ADD CONSTRAINT sexo_chk CHECK ( sexo IN (
+        'F',
+        ' M'
+    ) );
 
 ALTER TABLE postulante ADD CONSTRAINT postulante_pk PRIMARY KEY ( id_postulante );
 
@@ -186,14 +253,14 @@ ALTER TABLE ptje_decl_interes ADD CONSTRAINT ptje_decl_interes_pk PRIMARY KEY ( 
 
 CREATE TABLE ptje_edad (
     edad_min  NUMBER(2) NOT NULL,
-    edad_max  NUMBER(2) NOT NULL,
+    edad_max  NUMBER(3) NOT NULL,
     puntos    NUMBER(1) NOT NULL
 );
 
 ALTER TABLE ptje_edad ADD CONSTRAINT ptje_edad_pk PRIMARY KEY ( edad_min );
 
 CREATE TABLE ptje_estado_civil (
-    desc_estado_civil  VARCHAR2(15) NOT NULL,
+    desc_estado_civil  VARCHAR2(20) NOT NULL,
     puntos             NUMBER(1) NOT NULL
 );
 
@@ -229,7 +296,7 @@ CREATE TABLE ptje_retribucion (
 ALTER TABLE ptje_retribucion ADD CONSTRAINT ptje_retribucion_pk PRIMARY KEY ( evaluacion );
 
 CREATE TABLE ptje_zona_extrema (
-    nom_region  VARCHAR2(20) NOT NULL,
+    nom_region  VARCHAR2(50) NOT NULL,
     puntos      NUMBER(1) NOT NULL
 );
 
@@ -251,7 +318,7 @@ ALTER TABLE puntaje_asignado ADD CONSTRAINT puntaje_asignado_pk PRIMARY KEY ( id
 
 CREATE TABLE region (
     id_region    NUMBER(2) NOT NULL,
-    desc_region  VARCHAR2(20) NOT NULL
+    desc_region  VARCHAR2(50) NOT NULL
 );
 
 ALTER TABLE region ADD CONSTRAINT region_pk PRIMARY KEY ( id_region );
@@ -327,174 +394,20 @@ ALTER TABLE subespecialidad
     ADD CONSTRAINT subespecialidad_postulacion_fk FOREIGN KEY ( id_postulacion )
         REFERENCES postulacion ( id_postulacion );
 
-CREATE SEQUENCE antecedentes_academicos_id_ant START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER antecedentes_academicos_id_ant BEFORE
-    INSERT ON antecedentes_academicos
-    FOR EACH ROW
-    WHEN ( new.id_ant_acad IS NULL )
-BEGIN
-    :new.id_ant_acad := antecedentes_academicos_id_ant.nextval;
-END;
-/
-
-CREATE SEQUENCE ciudad_id_ciudad_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER ciudad_id_ciudad_trg BEFORE
-    INSERT ON ciudad
-    FOR EACH ROW
-    WHEN ( new.id_ciudad IS NULL )
-BEGIN
-    :new.id_ciudad := ciudad_id_ciudad_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE criterio_evaluacion_id_criteri START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER criterio_evaluacion_id_criteri BEFORE
-    INSERT ON criterio_evaluacion
-    FOR EACH ROW
-    WHEN ( new.id_criterio IS NULL )
-BEGIN
-    :new.id_criterio := criterio_evaluacion_id_criteri.nextval;
-END;
-/
-
-CREATE SEQUENCE error_sistema_id_error_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER error_sistema_id_error_trg BEFORE
-    INSERT ON error_sistema
-    FOR EACH ROW
-    WHEN ( new.id_error IS NULL )
-BEGIN
-    :new.id_error := error_sistema_id_error_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE estado_civil_id_est_civil_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER estado_civil_id_est_civil_trg BEFORE
-    INSERT ON estado_civil
-    FOR EACH ROW
-    WHEN ( new.id_est_civil IS NULL )
-BEGIN
-    :new.id_est_civil := estado_civil_id_est_civil_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE exp_laboral_id_exp_laboral_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER exp_laboral_id_exp_laboral_trg BEFORE
-    INSERT ON exp_laboral
-    FOR EACH ROW
-    WHEN ( new.id_exp_laboral IS NULL )
-BEGIN
-    :new.id_exp_laboral := exp_laboral_id_exp_laboral_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE institucion_id_institucion_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER institucion_id_institucion_trg BEFORE
-    INSERT ON institucion
-    FOR EACH ROW
-    WHEN ( new.id_institucion IS NULL )
-BEGIN
-    :new.id_institucion := institucion_id_institucion_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE nacionalidad_id_nacionalidad START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER nacionalidad_id_nacionalidad BEFORE
-    INSERT ON nacionalidad
-    FOR EACH ROW
-    WHEN ( new.id_nacionalidad IS NULL )
-BEGIN
-    :new.id_nacionalidad := nacionalidad_id_nacionalidad.nextval;
-END;
-/
-
-CREATE SEQUENCE pais_id_pais_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER pais_id_pais_trg BEFORE
-    INSERT ON pais
-    FOR EACH ROW
-    WHEN ( new.id_pais IS NULL )
-BEGIN
-    :new.id_pais := pais_id_pais_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE postulacion_id_postulacion_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER postulacion_id_postulacion_trg BEFORE
-    INSERT ON postulacion
-    FOR EACH ROW
-    WHEN ( new.id_postulacion IS NULL )
-BEGIN
-    :new.id_postulacion := postulacion_id_postulacion_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE postulante_id_postulante_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER postulante_id_postulante_trg BEFORE
-    INSERT ON postulante
-    FOR EACH ROW
-    WHEN ( new.id_postulante IS NULL )
-BEGIN
-    :new.id_postulante := postulante_id_postulante_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE pueblo_originario_id_pue_ori START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER pueblo_originario_id_pue_ori BEFORE
-    INSERT ON pueblo_originario
-    FOR EACH ROW
-    WHEN ( new.id_pue_ori IS NULL )
-BEGIN
-    :new.id_pue_ori := pueblo_originario_id_pue_ori.nextval;
-END;
-/
-
-CREATE SEQUENCE region_id_region_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER region_id_region_trg BEFORE
-    INSERT ON region
-    FOR EACH ROW
-    WHEN ( new.id_region IS NULL )
-BEGIN
-    :new.id_region := region_id_region_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE subespecialidad_id_subespecial START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER subespecialidad_id_subespecial BEFORE
-    INSERT ON subespecialidad
-    FOR EACH ROW
-    WHEN ( new.id_subespecialidad IS NULL )
-BEGIN
-    :new.id_subespecialidad := subespecialidad_id_subespecial.nextval;
-END;
-/
-
 
 
 -- Informe de Resumen de Oracle SQL Developer Data Modeler: 
 -- 
 -- CREATE TABLE                            26
 -- CREATE INDEX                             0
--- ALTER TABLE                             47
+-- ALTER TABLE                             46
 -- CREATE VIEW                              0
 -- ALTER VIEW                               0
 -- CREATE PACKAGE                           0
 -- CREATE PACKAGE BODY                      0
 -- CREATE PROCEDURE                         0
 -- CREATE FUNCTION                          0
--- CREATE TRIGGER                          14
+-- CREATE TRIGGER                           0
 -- ALTER TRIGGER                            0
 -- CREATE COLLECTION TYPE                   0
 -- CREATE STRUCTURED TYPE                   0
@@ -507,7 +420,7 @@ END;
 -- CREATE DISK GROUP                        0
 -- CREATE ROLE                              0
 -- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                         14
+-- CREATE SEQUENCE                          0
 -- CREATE MATERIALIZED VIEW                 0
 -- CREATE MATERIALIZED VIEW LOG             0
 -- CREATE SYNONYM                           0

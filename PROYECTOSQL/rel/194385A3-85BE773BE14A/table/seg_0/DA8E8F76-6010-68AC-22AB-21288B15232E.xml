@@ -18,8 +18,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DESC_INSTITUCION" id="B87AE8D5-2213-0869-6312-5DB6F3506CB9">
@@ -68,7 +66,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -84,16 +82,6 @@
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C036F5FD-C9A3-1EBC-EB5A-A70D8C7CA3A4"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="6B97F3FC-2F9B-81A3-0DE6-D2B84E8FC78A" name="INSTITUCION_ID_INSTITUCION_UN">
-<createdBy>lloni</createdBy>
-<createdTime>2021-04-28 00:50:37 UTC</createdTime>
-<ownerDesignName>PROYECTOSQL</ownerDesignName>
-<indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C036F5FD-C9A3-1EBC-EB5A-A70D8C7CA3A4"/>

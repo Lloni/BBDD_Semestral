@@ -18,8 +18,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DESC_CRITERIO" id="F58949A5-A0DB-38D9-CB21-24B69EB35DBD">
