@@ -68,7 +68,6 @@ CREATE SEQUENCE SEQ_NACIONALIDAD;
 CREATE SEQUENCE SEQ_PAIS;
 CREATE SEQUENCE SEQ_REGION;
 
-
 --CREAR TABLAS
 
 CREATE TABLE antecedentes_academicos (
@@ -96,8 +95,8 @@ CREATE TABLE ciudad (
 ALTER TABLE ciudad ADD CONSTRAINT ciudad_pk PRIMARY KEY ( id_ciudad );
 
 CREATE TABLE criterio_evaluacion (
-    id_criterio    NUMBER(1) NOT NULL,
-    desc_criterio  VARCHAR2(30) NOT NULL,
+    id_criterio    NUMBER(2) NOT NULL,
+    desc_criterio  VARCHAR2(60) NOT NULL,
     porcentaje     NUMBER(2) NOT NULL
 );
 
@@ -105,16 +104,16 @@ ALTER TABLE criterio_evaluacion ADD CONSTRAINT criterio_evaluacion_pk PRIMARY KE
 
 CREATE TABLE doc_extranjero (
     id_doc_extranjero  NUMBER(4) NOT NULL,
-    pasaporte          VARCHAR2(20) NOT NULL,
-    visa               VARCHAR2(20) NOT NULL
+    pasaporte          VARCHAR2(9) NOT NULL,
+    visa               NUMBER(8) NOT NULL
 );
 
 ALTER TABLE doc_extranjero ADD CONSTRAINT doc_extranjero_pk PRIMARY KEY ( id_doc_extranjero );
 
 CREATE TABLE error_sistema (
     id_error       NUMBER(4) NOT NULL,
-    modulo_error   VARCHAR2(9) NOT NULL,
-    mensaje_error  NUMBER(8) NOT NULL
+    modulo_error   VARCHAR2(50) NOT NULL,
+    mensaje_error  VARCHAR2(150) NOT NULL
 );
 
 ALTER TABLE error_sistema ADD CONSTRAINT error_sistema_pk PRIMARY KEY ( id_error );
@@ -138,7 +137,7 @@ ALTER TABLE exp_laboral ADD CONSTRAINT exp_laboral_pk PRIMARY KEY ( id_exp_labor
 
 CREATE TABLE institucion (
     id_institucion    NUMBER(4) NOT NULL,
-    desc_institucion  VARCHAR2(20) NOT NULL,
+    desc_institucion  VARCHAR2(30) NOT NULL,
     ranking           NUMBER(3) NOT NULL,
     url_institucion   VARCHAR2(50),
     id_ciudad         NUMBER(2) NOT NULL
@@ -187,8 +186,6 @@ CREATE TABLE postulante (
     num_run            NUMBER(8) NOT NULL,
     dv_run             CHAR(1) NOT NULL,
     fecha_naci         DATE NOT NULL,
-    pasaporte          VARCHAR2(20),
-    visa               VARCHAR2(20),
     sexo               CHAR(1),
     direccion          VARCHAR2(50) NOT NULL,
     num_hijos          NUMBER(2),
@@ -282,7 +279,7 @@ ALTER TABLE ptje_objetivo_est ADD CONSTRAINT ptje_objetivo_est_pk PRIMARY KEY ( 
 
 CREATE TABLE ptje_ranking (
     posicion_min  NUMBER(2) NOT NULL,
-    posicion_max  NUMBER(2) NOT NULL,
+    posicion_max  NUMBER(4) NOT NULL,
     puntos        NUMBER(1) NOT NULL
 );
 

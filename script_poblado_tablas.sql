@@ -1,7 +1,7 @@
 -- SCRIPT POBLADO DE TABLAS
 
 --POBLADO TABLA PUEBLO ORIGINARIO
-INSERT INTO PUEBLO_ORIGINARIO VALUES (SEQ_PUEBLO_ORIGINARIO.NEXTVAL, 'NINGUNO');
+INSERT INTO PUEBLO_ORIGINARIO VALUES (SEQ_PUEBLO_ORIGINARIO.NEXTVAL, 'DIAGUITA');
 INSERT INTO PUEBLO_ORIGINARIO VALUES (SEQ_PUEBLO_ORIGINARIO.NEXTVAL, 'MAPUCHE');
 INSERT INTO PUEBLO_ORIGINARIO VALUES (SEQ_PUEBLO_ORIGINARIO.NEXTVAL, 'AYMARA');
 INSERT INTO PUEBLO_ORIGINARIO VALUES (SEQ_PUEBLO_ORIGINARIO.NEXTVAL, 'QUECHUA');
@@ -185,11 +185,11 @@ INSERT INTO INSTITUCION VALUES (8,'University of Sydney', 37, null, 7);
 INSERT INTO INSTITUCION VALUES (9,'University of Buenos Aires', 297, null, 5);
 /
 
---POBLADO TABLA INSTITUCION
-INSERT INTO POSTULANTE VALUES (1,'Perez','Lamarca','Ramon',null,11432342,3,'13/04/1986','M','Calle 10 # 5-51', 0, 'N', 1, 0, 1, 1, null);
-INSERT INTO POSTULANTE VALUES (2,'Ulloa','Lanata','Victoria','Andrea',16432342,6,'12/02/1986','F','Calle 111', 2, 'S', 2, 1, 2, 1, null);
-INSERT INTO POSTULANTE VALUES (3,'Atreides','Santacruz','Adela','Fernanda',21432342,'4','13/04/1990','M','Calle Salta #21', 2, 'N', 2, 0, 5, 2, 1);
-INSERT INTO POSTULANTE VALUES (4,'Salamanca','Quillón','Benedicto','Bartolomeo',10432342,8,'03/12/1970','M','Avenida Pedro Montt #5001', 9, 'S', 4, 3, 2, 1, null);
-INSERT INTO POSTULANTE VALUES (5,'Peñaloza','Tolosa','Daniela','Carolina',14533342,1,'13/04/1991','F','Calle Ventosa #12', 0, 'N', 2, 0, 10, 1, null);
-INSERT INTO POSTULANTE VALUES (6,'Idaho','Harkonen','Alia',null,23432342,5,'13/10/1991','F','Calle Nueve de Julio #100', 1, 'S', 4, 4, 10, 1, null);
+--POBLADO TABLA POSTULANTE
+INSERT INTO POSTULANTE VALUES (1,'Perez','Lamarca','Ramon',null,11432342,'3','13/04/1986','M','Calle 10 # 5-51', 0, 'N', 1, null, 1, 1, null);
+INSERT INTO POSTULANTE VALUES (2,'Ulloa','Lanata','Victoria','Andrea',16432342,'6','12/02/1986','F','Calle 111', 2, 'S', 2, 1, 2, 1, null);
+INSERT INTO POSTULANTE VALUES (3,'Atreides','Santacruz','Adela','Fernanda',21432342,'4','13/04/1990','M','Calle Salta #21', 2, 'N', 2, null, 5, 2, 1);
+INSERT INTO POSTULANTE VALUES (4,'Salamanca','Quillón','Benedicto','Bartolomeo',10432342,'8','03/12/1970','M','Avenida Pedro Montt #5001', 9, 'S', 4, 3, 2, 1, null);
+INSERT INTO POSTULANTE VALUES (5,'Peñaloza','Tolosa','Daniela','Carolina',14533342,'1','13/04/1991','F','Calle Ventosa #12', 0, 'N', 2, null, 10, 1, null);
+INSERT INTO POSTULANTE VALUES (6,'Idaho','Harkonen','Alia',null,23432342,'5','13/10/1991','F','Calle Nueve de Julio #100', 1, 'S', 4, 4, 10, 1, null);
 /
