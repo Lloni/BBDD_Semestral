@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NIVEL ACT" id="BC6A5F0C-E698-EBD0-BD94-7E9C2EA56093">
+<Attribute name="NIVEL_ACT" id="BC6A5F0C-E698-EBD0-BD94-7E9C2EA56093">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:37:36 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

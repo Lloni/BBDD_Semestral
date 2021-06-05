@@ -59,6 +59,7 @@ DROP SEQUENCE SEQ_PUEBLO_ORIGINARIO;
 DROP SEQUENCE SEQ_NACIONALIDAD;
 DROP SEQUENCE SEQ_PAIS;
 DROP SEQUENCE SEQ_REGION;
+DROP SEQUENCE SEQ_ERROR;
 
 --CREAR SECUENCIAS
 
@@ -67,6 +68,7 @@ CREATE SEQUENCE SEQ_PUEBLO_ORIGINARIO;
 CREATE SEQUENCE SEQ_NACIONALIDAD;
 CREATE SEQUENCE SEQ_PAIS;
 CREATE SEQUENCE SEQ_REGION;
+CREATE SEQUENCE SEQ_ERROR;
 
 --CREAR TABLAS
 
@@ -165,6 +167,7 @@ CREATE TABLE postulacion (
     evalua_objetivo       VARCHAR2(15) NOT NULL,
     evalua_retribucion    VARCHAR2(15) NOT NULL,
     evalua_doce_inve      VARCHAR2(15) NOT NULL,
+    evalua_interes        VARCHAR2(15) NOT NULL,
     id_postulante         NUMBER(10) NOT NULL,
     cert_ced_identidad    BLOB NOT NULL,
     cert_perm_definitiva  BLOB NOT NULL,
@@ -190,8 +193,8 @@ CREATE TABLE postulante (
     direccion          VARCHAR2(50) NOT NULL,
     num_hijos          NUMBER(2),
     discap_fisica      CHAR(1) NOT NULL,
-    estado_civil       NUMBER(1) NOT NULL,
-    pueblo_originario  NUMBER(2),
+    id_est_civil       NUMBER(1) NOT NULL,
+    id_pue_ori         NUMBER(2),
     id_ciudad          NUMBER(2) NOT NULL,
     id_nacionalidad    NUMBER(3) NOT NULL,
     id_doc_extranjero  NUMBER(4)
@@ -264,11 +267,12 @@ CREATE TABLE ptje_estado_civil (
 ALTER TABLE ptje_estado_civil ADD CONSTRAINT ptje_estado_civil_pk PRIMARY KEY ( desc_estado_civil );
 
 CREATE TABLE ptje_exp_laboral (
-    anos_exp  NUMBER(2) NOT NULL,
+    anos_min  NUMBER(2, 1) NOT NULL,
+    anos_max  NUMBER(3, 1) NOT NULL,
     puntos    NUMBER(1) NOT NULL
 );
 
-ALTER TABLE ptje_exp_laboral ADD CONSTRAINT ptje_exp_laboral_pk PRIMARY KEY ( anos_exp );
+ALTER TABLE ptje_exp_laboral ADD CONSTRAINT ptje_exp_laboral_pk PRIMARY KEY ( anos_min );
 
 CREATE TABLE ptje_objetivo_est (
     evaluacion  VARCHAR2(15) NOT NULL,
@@ -287,7 +291,7 @@ ALTER TABLE ptje_ranking ADD CONSTRAINT ptje_ranking_pk PRIMARY KEY ( posicion_m
 
 CREATE TABLE ptje_retribucion (
     evaluacion  VARCHAR2(15) NOT NULL,
-    putnos      NUMBER(1) NOT NULL
+    puntos      NUMBER(1) NOT NULL
 );
 
 ALTER TABLE ptje_retribucion ADD CONSTRAINT ptje_retribucion_pk PRIMARY KEY ( evaluacion );
@@ -360,7 +364,7 @@ ALTER TABLE postulante
         REFERENCES doc_extranjero ( id_doc_extranjero );
 
 ALTER TABLE postulante
-    ADD CONSTRAINT post_pue_or_fk FOREIGN KEY ( pueblo_originario )
+    ADD CONSTRAINT post_pue_or_fk FOREIGN KEY ( id_pue_ori )
         REFERENCES pueblo_originario ( id_pue_ori );
 
 ALTER TABLE postulacion
@@ -372,7 +376,7 @@ ALTER TABLE postulante
         REFERENCES ciudad ( id_ciudad );
 
 ALTER TABLE postulante
-    ADD CONSTRAINT postulante_estado_civil_fk FOREIGN KEY ( estado_civil )
+    ADD CONSTRAINT postulante_estado_civil_fk FOREIGN KEY ( id_est_civil )
         REFERENCES estado_civil ( id_est_civil );
 
 ALTER TABLE postulante

@@ -185,7 +185,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ESTADO CIVIL" id="CA7E227E-DF27-7A62-495C-26C2F80CB406">
+<Attribute name="ID_EST_CIVIL" id="CA7E227E-DF27-7A62-495C-26C2F80CB406">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:53:14 UTC</createdTime>
 <generatorID>70BF0524-3060-D038-BADD-506E6097B08F</generatorID>
@@ -198,9 +198,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PUEBLO ORIGINARIO" id="05EABC1E-A137-5814-7BB9-D8A279BE129E">
+<Attribute name="ID_PUE_ORI" id="05EABC1E-A137-5814-7BB9-D8A279BE129E">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-24 22:53:36 UTC</createdTime>
 <generatorID>86A04531-4DAA-F967-EEC8-BA7B99E50414</generatorID>
@@ -214,7 +214,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID CIUDAD" id="53C39C2D-B26A-1656-14CD-2993DA4F6D48">
 <createdBy>lloni</createdBy>

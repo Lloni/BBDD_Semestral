@@ -166,7 +166,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ESTADO_CIVIL" id="A75A5151-20D5-11F7-5DAD-1D57893AF31A">
+<Column name="ID_EST_CIVIL" id="A75A5151-20D5-11F7-5DAD-1D57893AF31A">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
 <generatorID>CA7E227E-DF27-7A62-495C-26C2F80CB406</generatorID>
@@ -182,7 +182,7 @@
 <colAssociation fkAssociation="09FA66F6-B7C5-2E52-D503-EDACD2EB6E13" referredColumn="20117DD7-0883-27FE-DAB4-924FA86CA8F6"/>
 </associations>
 </Column>
-<Column name="PUEBLO_ORIGINARIO" id="5B1E46E5-0476-07DF-1C2E-015FD0BF42C9">
+<Column name="ID_PUE_ORI" id="5B1E46E5-0476-07DF-1C2E-015FD0BF42C9">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
 <generatorID>05EABC1E-A137-5814-7BB9-D8A279BE129E</generatorID>

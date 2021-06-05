@@ -28,7 +28,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PUTNOS" id="78D605D7-3567-B5B1-D263-7A835DDB2543">
+<Attribute name="PUNTOS" id="78D605D7-3567-B5B1-D263-7A835DDB2543">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:41:24 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>

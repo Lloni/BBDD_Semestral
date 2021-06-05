@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ANOS EXP" id="02D37756-EDF2-03A9-9FE0-ACB6DC3D2DEE">
+<Attribute name="ANOS MIN" id="02D37756-EDF2-03A9-9FE0-ACB6DC3D2DEE">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:33:55 UTC</createdTime>
 <ownerDesignName>PROYECTOSQL</ownerDesignName>
@@ -40,6 +40,17 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ANOS_MAX" id="CA1E6311-8E47-F8CA-22CB-CBFB29A80717">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-06-05 22:23:23 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

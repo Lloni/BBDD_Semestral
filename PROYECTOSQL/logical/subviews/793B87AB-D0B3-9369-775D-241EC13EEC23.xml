@@ -64,11 +64,11 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="96ED0D17-3CFD-9A32-660C-B9703C0D901B" otype="Entity" vid="B67EBE1D-D98F-8909-B8AE-564D422889C5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1600" y="450" width="227" height="74"/>
+<bounds x="1600" y="450" width="227" height="91"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="99055BC3-3B52-4F8F-DEF1-77A20075BFA6" otype="Entity" vid="456B557F-C491-821B-BED0-932471CF8ED7">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1600" y="530" width="217" height="88"/>
+<bounds x="1600" y="550" width="217" height="88"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9E168630-B65D-9AF5-2749-89BED088A386" otype="Entity" vid="29DA8C86-DE2A-5FDE-6D94-93173A447014">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>

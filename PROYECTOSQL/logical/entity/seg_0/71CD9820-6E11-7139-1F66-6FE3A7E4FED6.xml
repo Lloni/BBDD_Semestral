@@ -79,6 +79,19 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="EVALUA_INTERES" id="02DDEDA9-9747-ACF2-F46B-ACD6DFA44E6F">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-06-05 23:14:01 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<engineerTo>
+<item key="194385A3-43AF-F218-EEA4-85BE773BE14A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="ID POSTULANTE" id="ACE95C56-8295-4326-8A32-ABCC2CB25CEC">
 <createdBy>Sebastián Caffi</createdBy>
 <createdTime>2021-04-25 01:00:23 UTC</createdTime>

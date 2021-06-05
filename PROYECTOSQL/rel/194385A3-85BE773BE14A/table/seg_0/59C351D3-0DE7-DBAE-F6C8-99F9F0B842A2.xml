@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ANOS_EXP" id="6C83660E-F6B2-5DAB-D2DE-27799F367E91">
+<Column name="ANOS_MIN" id="6C83660E-F6B2-5DAB-D2DE-27799F367E91">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
 <generatorID>02D37756-EDF2-03A9-9FE0-ACB6DC3D2DEE</generatorID>
@@ -17,7 +17,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANOS_MAX" id="6B33F03D-DD20-6F4D-3C5C-32E4C0DC627A">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-06-05 22:19:32 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="PUNTOS" id="63F1A35D-BC19-8697-8006-70B2C43C208B">

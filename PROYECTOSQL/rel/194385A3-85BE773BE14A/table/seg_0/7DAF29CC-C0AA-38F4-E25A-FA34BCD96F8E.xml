@@ -67,6 +67,17 @@
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="EVALUA_INTERES" id="9956E11E-5424-7F12-02DE-1B1333A77BB2">
+<createdBy>Sebastián Caffi</createdBy>
+<createdTime>2021-06-05 23:13:19 UTC</createdTime>
+<ownerDesignName>PROYECTOSQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ID_POSTULANTE" id="E390ED99-7818-A965-B7AD-D32CE674530B">
 <createdBy>lloni</createdBy>
 <createdTime>2021-04-28 00:12:24 UTC</createdTime>
