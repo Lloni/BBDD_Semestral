@@ -114,7 +114,7 @@ ALTER TABLE doc_extranjero ADD CONSTRAINT doc_extranjero_pk PRIMARY KEY ( id_doc
 
 CREATE TABLE error_sistema (
     id_error       NUMBER(4) NOT NULL,
-    modulo_error   VARCHAR2(50) NOT NULL,
+    modulo_error   VARCHAR2(100) NOT NULL,
     mensaje_error  VARCHAR2(150) NOT NULL
 );
 
